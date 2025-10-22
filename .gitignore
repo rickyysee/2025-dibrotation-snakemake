@@ -1,0 +1,18 @@
+# Ignore output directories
+databases/
+fastqc/
+khmer/
+raw-data/
+sgc/
+sourmash/
+spacegraphcats/
+trim/
+
+# Ignore any non-current dag files
+dag-[^c]*.png
+
+# Ignore any log files that I produce
+*.log
+
+# Ignore the .snakemake directory
+.snakemake
