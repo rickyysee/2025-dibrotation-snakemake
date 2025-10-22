@@ -245,4 +245,3 @@ dependencies:
   - zlib=1.2.13=h4ab18f5_6
   - zstandard=0.19.0=py38h0a891b7_0
   - zstd=1.5.6=ha6fb4c9_0
-prefix: /home/rcantua/.conda/envs/dib-rotation

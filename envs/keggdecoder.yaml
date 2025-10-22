@@ -61,4 +61,3 @@ dependencies:
       - tanglegram==0.1.0
       - tqdm==4.64.1
       - zipp==3.6.0
-prefix: /home/rcantua/.conda/envs/keggdecoder
