@@ -1,12 +1,12 @@
 SAMPLES = ["SRR1976948"]
 RUNS = [1,2]
-EMAIL = "rcantua@ucdavis.edu"
+EMAIL = "@ucdavis.edu"
 
 onsuccess:
-    shell("sendmail {EMAIL} < {log}")
+    shell("sendmail ${USER}{EMAIL} < {log}")
 
 onerror:
-    shell("sendmail {EMAIL} < {log}")
+    shell("sendmail ${USER}{EMAIL} < {log}")
 
 rule all:
     input:
